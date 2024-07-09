@@ -22,9 +22,9 @@ This folder provides the PyTorch-based code framework for Unet used in this stud
 
 # Mean Shape based post-processing method
 
-This method combines the Shapeworks[1] software with the ShIRT [2，3] algorithm.
-Shapeworks is an open source software that can be downloaded and used at: https://sciinstitute.github.io/ShapeWorks/latest/
-ShIRT is a non-linear deformable image registration algorithm (ShIRT) and is a non-public piece of software. Please contact zlin@29sheffield.ac.uk to apply for the permission.
+This method combines the Shapeworks[1] software with the ShIRT [2，3] algorithm. 
+Shapeworks is an open source software that can be downloaded and used at: https://sciinstitute.github.io/ShapeWorks/latest/ 
+ShIRT is a non-linear deformable image registration algorithm (ShIRT) and is a non-public piece of software. Please contact zlin@29sheffield.ac.uk to apply for the permission. 
 
 # reference
 [1] Joshua Cates, Shireen Elhabian, and Ross Whitaker, “Shapeworks: particle-based shape correspondence and visualization software.,” in Statistical Shape and Deformation Analysis, Academic Press, 2017.
