@@ -19,3 +19,14 @@ include the 2 scripts：
 
 # Unet  
 This folder provides the PyTorch-based code framework for Unet used in this study. The Unet used adopts the most basic structure.
+
+# Mean Shape based post-processing method
+
+This method combines the Shapeworks[1] software with the ShIRT [2，3] algorithm.
+Shapeworks is an open source software that can be downloaded and used at: https://sciinstitute.github.io/ShapeWorks/latest/
+ShIRT is a non-linear deformable image registration algorithm (ShIRT) and is a non-public piece of software. Please contact zlin@29sheffield.ac.uk to apply for the permission.
+
+# reference
+[1] Joshua Cates, Shireen Elhabian, and Ross Whitaker, “Shapeworks: particle-based shape correspondence and visualization software.,” in Statistical Shape and Deformation Analysis, Academic Press, 2017.
+[2] W. H. Henson, C. Mazzá, and E. Dall’Ara, “Deformable image registration based on single or multi-atlas methods for automatic muscle segmentation and the generation of augmented imaging datasets,” PLOS ONE, vol. 18, no. 3, p. e0273446, Mar. 2023, doi: 10.1371/journal.pone.0273446.
+[3] D. Barber and D. Hose, “Automatic segmentation of medical images using image registration: diagnostic and simulation applications,” J. Med. Eng. Technol., vol. 29, no. 2, pp. 53–63, Jan. 2005, doi: 10.1080/03091900412331289889.
